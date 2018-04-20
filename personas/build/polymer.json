@@ -1,0 +1,32 @@
+{
+  "entrypoint": "index.html",
+  "fragments": [],
+  "sources": [
+    "src\\**\\*",
+    "index.html"
+  ],
+  "extraDependencies": [
+    "bower_components\\webcomponentsjs\\*.js"
+  ],
+  "builds": [
+    {
+      "name": "personas",
+      "bundle": false,
+      "js": {
+        "compile": true,
+        "minify": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      }
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  },
+   "builds": [
+	    {
+	      "name": "personas",
+	      "bundle": false,
+	      "js": { "compile": true, "minify": true },
+	      "css": { "minify": true },
+	      "html": { "minify": true }
+	    }
+	]
+}
